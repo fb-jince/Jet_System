@@ -2,7 +2,7 @@
 /*
 Configure\RAF 
 
-
+？？？16:37
  RAF
  
  Angle.csv
@@ -49,18 +49,17 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Reactive.Linq;
-using System.Reactive.Threading.Tasks;
+
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using VisionproToolBase;
+
 
 namespace Jet_System
 {
     public partial class FormMain : Form
     {
-        string[] filenames;//vpp root
+        string[] filenafgfgfgmes;//vpp root
         bool first_change = true;// first program index change ,do not showTable again
         ConcurrentDictionary<int, string> Current_File_Name = new ConcurrentDictionary<int, string>();// dictionary for save file paths 
 
